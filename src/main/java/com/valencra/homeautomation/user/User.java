@@ -6,7 +6,6 @@ import com.valencra.homeautomation.core.BaseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import java.util.List;
 import javax.persistence.Entity;
 
 @Entity
