@@ -1,7 +1,7 @@
 package com.valencra.homeautomation.core;
 
-import com.teamtreehouse.user.DetailsService;
-import com.teamtreehouse.user.User;
+import com.valencra.homeautomation.user.DetailsService;
+import com.valencra.homeautomation.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
