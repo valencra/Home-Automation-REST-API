@@ -19,7 +19,7 @@ public class Room extends BaseEntity {
   @NotNull
   private String name;
   @NotNull
-  @Max(value = 999, message = "Area must be less that 1000 sq. ft./ sq. m.")
+  @Max(value = 999, message = "Area must be less that 1000 sq. m.")
   private int area;
   @OneToMany(mappedBy = "room", cascade = CascadeType.ALL)
   private List<Device> devices;
